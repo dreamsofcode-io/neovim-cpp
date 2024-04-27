@@ -51,7 +51,7 @@ esac
 
 # Install NvChad
 echo -e "${GREEN}-==Installing NvChad ...==-${NC}"
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 > /dev/null 2>&1
+git clone -b 2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 > /dev/null 2>&1
 
 #  Cloning Repository
 echo -e "${GREEN}-==Cloning Repository ...==-${NC}"
