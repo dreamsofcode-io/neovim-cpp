@@ -2,14 +2,17 @@
 
 [![GitHub license](https://img.shields.io/github/license/dreamsofcode-io/neovim-cpp)](https://github.com/dreamsofcode-io/neovim-cpp/blob/main/LICENSE)
 
-this repository is a personal collection of dotfiles I've curated to optimize the experience of using Neovim with C++. It includes a selection of plugins and configurations that are specifically designed to enhance C++ development.
+this repository is a my personal neovim configs which i use to code in C++.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Shell Script](#Shell-Script)
-- [Credits](#credits)
+- [Neovim CPP](#neovim-cpp)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Silicon](#silicon)
+  - [Shell-Script](#shell-script)
+  - [Credits](#credits)
 
 ## Installation
 
@@ -28,9 +31,15 @@ cd neovim-cpp
 sh install.sh
 ```
 
+
+
 ## Usage
 
 After installation, you can start using Neovim. The plugins and configurations included in this project will provide you with a comfortable and efficient environment for C++ development.
+
+## Silicon
+if you decide to install Silicon configs, the script will do it automatically, all you have to do is go to visual mode and select the code, then use command "Silicon". this is an example image taken by Silicon:
+![example Silicon image](Silicon_test.png)
 
 ## Shell-Script
 
@@ -41,4 +50,4 @@ sed -i '/^vim.cmd("MasonInstallAll")$/d' ~/.config/nvim/init.lua
 
 ## Credits
 
-This project was developed by [dreamsofcode-io](https://github.com/dreamsofcode-io).
+thanks to [dreamsofcode-io](https://github.com/dreamsofcode-io) for their base setup
