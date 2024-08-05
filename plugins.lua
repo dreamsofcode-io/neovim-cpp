@@ -1,4 +1,8 @@
 local plugins = {
+  { 
+    "nvim-neotest/nvim-nio", 
+    event = "VeryLazy",
+  },
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
@@ -36,7 +40,7 @@ local plugins = {
     end
   },
   {
-    "jose-elias-alvarez/null-ls.nvim",
+    "silverhadch/null-ls.nvim",
     event = "VeryLazy",
     opts = function()
       return require "custom.configs.null-ls"
